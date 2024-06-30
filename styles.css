@@ -39,4 +39,30 @@
     font-family: 'Indie Flower', cursive;
   
   }
+
+
+
+
+#refreshButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#refreshButton:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+#refreshButton:active {
+    transform: translateY(1px);
+}
   
